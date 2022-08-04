@@ -1,0 +1,13 @@
+levelupcommands:
+  2:
+    - give %player% apple
+    - give %player% apple
+    - give %player% apple
+
+
+commandcheck:
+  dxl11:
+    limitlevel: 10
+    permission: test.op
+    commands:
+      - give %player% apple

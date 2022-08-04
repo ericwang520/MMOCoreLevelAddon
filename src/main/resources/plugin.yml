@@ -1,0 +1,13 @@
+name: MMOCoreLevelAddon
+version: '${project.version}'
+main: me.yiyi1234.mmocoreleveladdon.MMOCoreLevelAddon
+api-version: 1.16
+
+commands:
+  MMOCoreLevelAddon:
+
+permissions:
+  test.op:
+    default: op
+depend:
+  - MMOCore
